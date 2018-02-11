@@ -1,0 +1,34 @@
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+[color]
+	ui = always
+
+[core]
+	excludesfile = ~/.gitignore
+
+[help]
+	autocorrect = 1
+
+# push easily. http://stackoverflow.com/a/23918418/89484
+[push]
+	default = current
+
+# For private data (username / github token / etc)
+[include]
+  path = ~/.gitconfig.local
+
+# Force all new branches to automatically use rebase
+[pull]
+	rebase = true
+
+# Automatic housekeeping
+[fetch]
+  prune = true
+
+[stash]
+  showPatch = true
+
+[merge]
+  ff = false
+

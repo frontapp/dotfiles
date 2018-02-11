@@ -1,2 +1,2 @@
-EXCLUDES="README.md"
+EXCLUDES="README.md gitconfig.local.example"
 DOTFILES_DIRS="$HOME/front-dotfiles"
