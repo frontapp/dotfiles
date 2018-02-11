@@ -1,18 +1,18 @@
 [alias]
-	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 
 [color]
-	ui = always
+  ui = always
 
 [core]
-	excludesfile = ~/.gitignore
+  excludesfile = ~/.gitignore
 
 [help]
-	autocorrect = 1
+  autocorrect = 1
 
 # push easily. http://stackoverflow.com/a/23918418/89484
 [push]
-	default = current
+  default = current
 
 # For private data (username / github token / etc)
 [include]
@@ -20,7 +20,7 @@
 
 # Force all new branches to automatically use rebase
 [pull]
-	rebase = true
+  rebase = true
 
 # Automatic housekeeping
 [fetch]
@@ -31,4 +31,3 @@
 
 [merge]
   ff = false
-
