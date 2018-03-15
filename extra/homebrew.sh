@@ -19,7 +19,6 @@ brew install thoughtbot/formulae/rcm
 brew cask install front
 
 brew cask install 1password
-brew cask install authy
 brew cask install dropbox
 brew cask install google-chrome
 brew cask install kap
