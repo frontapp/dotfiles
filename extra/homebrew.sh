@@ -11,6 +11,7 @@ brew update
 
 brew install node
 brew install git
+brew install awscli
 
 ## Dotfiles management
 brew tap thoughtbot/formulae
