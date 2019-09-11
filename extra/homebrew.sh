@@ -9,9 +9,10 @@ brew update
 ###############################################################################
 # CLI
 
-brew install node
+brew install node@10
 brew install git
 brew install awscli
+brew install yarn
 
 ## Dotfiles management
 brew tap thoughtbot/formulae
