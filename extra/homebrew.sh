@@ -21,12 +21,12 @@ brew install thoughtbot/formulae/rcm
 ###############################################################################
 # Softwares
 
-brew cask install front
+brew install --cask front
 
-brew cask install 1password
-brew cask install dropbox
-brew cask install google-chrome
-brew cask install kap
-brew cask install pritunl
-brew cask install sequel-pro
-brew cask install slack
+brew install --cask 1password
+brew install --cask dropbox
+brew install --cask google-chrome
+brew install --cask kap
+brew install --cask pritunl
+brew install --cask sequel-pro
+brew install --cask slack
