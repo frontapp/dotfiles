@@ -3,6 +3,7 @@
 
 [color]
   ui = always
+  mergeoptions = --no-edit
 
 [core]
   excludesfile = ~/.gitignore
