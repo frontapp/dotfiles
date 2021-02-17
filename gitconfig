@@ -31,3 +31,7 @@
 
 [merge]
   ff = false
+
+# Histogram is (unnoticeably) slower, but it generates much cleaner diffs
+[diff]
+  algorithm = histogram
