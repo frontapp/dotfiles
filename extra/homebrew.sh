@@ -13,13 +13,14 @@ brew install node@10
 brew install git
 brew install awscli
 brew install yarn
+brew install fzf
 
 ## Dotfiles management
 brew tap thoughtbot/formulae
 brew install thoughtbot/formulae/rcm
 
 ###############################################################################
-# Softwares
+# Software
 
 brew install --cask front
 
