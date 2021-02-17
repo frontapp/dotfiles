@@ -1,5 +1,7 @@
 [alias]
   lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  # Display recent branches, and then check out the selected branch
+  cr = !git for-each-ref --sort=-committerdate --format='%(committerdate:relative): %(refname:short)' refs/heads/ | head -n 10 | fzf| cut -d':' -f2 | xargs git checkout
 
 [color]
   ui = always
